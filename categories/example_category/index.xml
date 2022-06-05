@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>example_category on Tue&#39;s Blog</title>
+    <link>https://duongquoctue.github.io/categories/example_category/</link>
+    <description>Recent content in example_category on Tue&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Jun 2021 07:42:20 +0700</lastBuildDate><atom:link href="https://duongquoctue.github.io/categories/example_category/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello Hugo by Tue!</title>
+      <link>https://duongquoctue.github.io/posts/hellohugo/</link>
+      <pubDate>Fri, 04 Jun 2021 07:42:20 +0700</pubDate>
+      
+      <guid>https://duongquoctue.github.io/posts/hellohugo/</guid>
+      <description>Hello from Hugo! Ha! if you&amp;rsquo;re reading this in your browser, good job! The file content/post/hello-hugo.md has been converted into a complete HTML document by Hugo. Isn&amp;rsquo;t that pretty nifty?
+A Section Here&amp;rsquo;s a simple titled section where you can place whatever information you want.
+You can use inline HTML if you want, but really there&amp;rsquo;s not much that Markdown can&amp;rsquo;t do.
+Showing off with Markdown A full cheat sheet can be found here or through Google.</description>
+    </item>
+    
+  </channel>
+</rss>
