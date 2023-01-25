@@ -1,15 +1,8 @@
 ---
-title: "About Me"
-date: 1998-11-23T07:00:00+07:00
+title: "About me"
+publishDate: "2023-01-25"
 ---
 
-Hugo is a static site engine written in Go.
+I'm a software engineer based in Hanoi, Vietnam
 
-It makes use of a variety of open source projects including:
-
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+Here's a [link](https://drive.google.com/file/d/1gXhsgVJxQzD7HxalCLlRXrfoMQsK4E1h/view?usp=sharing) to my resume (will be hand-written in this page soon!)

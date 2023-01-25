@@ -3,20 +3,25 @@ languageCode = "en-us"
 theme = "hugo_theme_pickles"
 enableGitInfo = true
 # Copyright notice. This is displayer in the footer.
-copyright = "&copy; From Rinzler with <3"
-
+copyright = "&copy; From Rinzler with 🔥"
 
 ### Config for the theme
-
 Title = "Duong Quoc Tue"
 # Short subtitle/tagline. This is displayed in the header.
 subtitle = "Keeping myself inspired and motivated."
 
 # Google Analytics API key.
 googleAnalytics = "Your Google Analytics tracking id"
+#Disqus
+disqusShortname = "duongquoctue"
+disqus_url = "https://duongquoctue.com"
 
 [params]
-paginate = 5
+logo = "/static/images/ava.jpg"
+favicon = "/static/icons/favicon.ico"
+hideWordCount = true
+hideReadingTime = true
+paginate = 6
 custom_css = ["/css/custom.css"]
 # Social accounts. Link to these accounts are displayed in the header and
 # footer
@@ -25,16 +30,11 @@ github = "duongquoctue"
 linkedin = "duongquoctue"
 twitter = "duongquoctue"
 
-author = "Duong Quoc Tue"
+author = "Tue Duong"
 authorwebsite = "https://duongquoctue.com/"
-# avatar = "/static/images/ava.jpg"
+avatar = "/images/avatar.jpg"
+bio = "Software Engineer @ OpenCommerce Group"
 contact = "mailto:duongquoctue@icloud.com"
-# bio = "The full-stack developer wannabe"
-
-
-# Logo image. This is displayed ogp image.
-logo = "/static/images/ava.jpg"
-favicon = "/static/icon/favicon.ico"
 
 [[menu.main]]
 name = "Home"
@@ -51,6 +51,11 @@ name = "Tags"
 url = "/tags"
 weight = 3
 
+[[menu.main]]
+name = "Categories"
+url = "/categories"
+weight = 4
+
 [related]
 # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
 threshold = 80
@@ -59,7 +64,7 @@ threshold = 80
 includeNewer = false
 
 # Will lower case keywords in both queries and in the indexes.
-toLower = false
+toLower = true
 
 [[related.indices]]
 name = "keywords"
@@ -74,4 +79,3 @@ weight = 100
 [[related.indices]]
 name = "date"
 weight = 10
-pattern = "2017"

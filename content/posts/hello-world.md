@@ -1,15 +1,17 @@
----
-title: "Hello Hugo by Tue!"
-description: "Saying 'Hello' from Hugo by Rinzler"
-date: 2021-06-04T07:42:20+07:00
-categories:
-  - "example_category"
-tags:
-  - "example_tag"
----
++++
+title = "Hello World"
+description = ""
+tags = [
+    "example_tag"
+]
+date = "2014-04-02"
+categories = [
+    "example_category"
+]
+weight = 100
++++
 
-Hello from Hugo! Ha! if you're reading this in your browser, good job! The file `content/post/hello-hugo.md` has been
-converted into a complete HTML document by Hugo. Isn't that pretty nifty?
+Hello from Hugo! 
 
 A Section
 ---------

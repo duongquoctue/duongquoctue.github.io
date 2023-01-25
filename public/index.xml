@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Duong Quoc Tue</title>
+    <link>https://duongquoctue.com/</link>
+    <description>Recent content on Duong Quoc Tue</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; From Rinzler with 🔥</copyright>
+    <lastBuildDate>Sat, 24 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://duongquoctue.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Figure Zoom Sample</title>
+      <link>https://duongquoctue.com/posts/figure-zoom-sample/</link>
+      <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://duongquoctue.com/posts/figure-zoom-sample/</guid>
+      <description>The figure-zoom shortcode is a version of the standard figure shortcode which also incorporates Zoom.js.
+Here is how the markdown for the shortcode is used:
+{{&amp;lt; figure-zoom src=&amp;#34;/images/kitten.jpg&amp;#34; title=&amp;#34;It&amp;#39;s a Kitten!&amp;#34; caption=&amp;#34;This is a kitten, what else needs to be said?&amp;#34; &amp;gt;}} It will be shown like this - click on the image to zoom in:
+It&amp;#39;s a Kitten!This is a kitten, what else needs to be said?</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://duongquoctue.com/posts/hello-world/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://duongquoctue.com/posts/hello-world/</guid>
+      <description>Hello from Hugo!
+A Section Here&amp;rsquo;s a simple titled section where you can place whatever information you want.
+You can use inline HTML if you want, but really there&amp;rsquo;s not much that Markdown can&amp;rsquo;t do.
+Showing off with Markdown A full cheat sheet can be found here or through Google.
+There are some easy examples for styling, though. I can&amp;rsquo;t emphasize that enough. Creating links or inline code blocks are very straightforward.</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://duongquoctue.com/about/</link>
+      <pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://duongquoctue.com/about/</guid>
+      <description>I&amp;rsquo;m a software engineer based in Hanoi, Vietnam
+Here&amp;rsquo;s a link to my resume (will be hand-written in this page soon!)</description>
+    </item>
+    
+  </channel>
+</rss>
