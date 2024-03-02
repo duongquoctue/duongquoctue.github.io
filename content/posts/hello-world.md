@@ -1,17 +1,12 @@
-+++
-title = "Hello World"
-description = ""
-tags = [
-    "example_tag"
-]
-date = "2014-04-02"
-categories = [
-    "example_category"
-]
-weight = 100
-+++
+---
+title: "Hello World"
+description: "This is a description"
+tags: ["hello"]
+date: "2014-04-02"
+categories: ["starter"]
+---
 
-Hello from Hugo! 
+Hello from Hugo!
 
 A Section
 ---------
@@ -29,32 +24,15 @@ or through [Google](https://google.com/).
 There are some *easy* examples for styling, though. I can't **emphasize** that enough.
 Creating [links](https://google.com/) or `inline code` blocks are very straightforward.
 
-```
+```text
 There are some *easy* examples for styling, though. I can't **emphasize** that enough.
 Creating [links](https://google.com/) or `inline code` blocks are very straightforward.
 ```
 
-Front Matter for Fun
---------------------
+Code format
 
-This is the meta data for this post. It is located at the top of the `content/post/hello-hugo.md` markdown file.
-
+```json
+{
+  "hello": "World"
+}
 ```
----
-title: "Hello Hugo!"
-description: "Saying 'Hello' from Hugo"
-date: "2014-09-01"
-categories:
-  - "example"
-  - "hello"
-tags:
-  - "example"
-  - "hugo"
-  - "blog"
----
-```
-
-This section, called 'Front Matter', is what tells Hugo about the content in this file: the `title` of the item, the
-`description`, and the `date` it was posted. In our example, we've added two custom bits of data too. The `categories` and
-`tags` sections are used in this example for indexing/grouping content. You will learn more about what that means by
-examining the code in this example and through reading the Hugo [documentation](http://gohugo.io/overview/introduction).

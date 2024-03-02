@@ -1,0 +1,113 @@
+# If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
+# contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+baseURL: "https://duongquoctue.com/"
+title: "Tue Duong"
+languageCode: en-us
+paginate: 5
+theme: [PaperMod]
+
+pygmentsUseClasses: true
+mainsections: ["posts"]
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+    menu:
+      main:
+        - name: Posts
+          url: /posts
+          weight: 1
+        - name: Tags
+          url: /tags
+          weight: 2
+        - name: Categories
+          url: /categories
+          weight: 3
+        - name: Search
+          url: /search
+          weight: 4
+
+params:
+  env: production
+  description: "Tue Duong"
+  author: "Tue Duong"
+  comments: true
+  images: ["images/avatar.jpg"]
+  defaultTheme: auto
+  displayFullLangName: true
+  DateFormat: "January 2, 2006"
+  ShowShareButtons: false
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: false
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+
+  homeInfoParams:
+    Title: "Tue Duong's blog"
+    Content: >
+      - I write about stuff I'm interested in and things I've learned.
+
+      - Currently working at <a href="https://outpost24.com" target="_blank">Outpost24</a> as a Software Engineer.
+
+  socialIcons:
+    - name: github
+      title: GitHub
+      url: "https://github.com/duongquoctue"
+    - name: email
+      title: Email
+      url: "mailto:rinzlersoftware@gmail.com"
+    - name: linkedin
+      title: LinkedIn
+      url: "https://www.linkedin.com/in/duongquoctue/"
+    - name: facebook
+      title: Facebook
+      url: "https://facebook.com/rnzlrdqt"
+
+  assets:
+    disableHLJS: true
+    favicon: "icons/favicon.ico"
+    favicon16x16: "icons/favicon.ico"
+  #     favicon32x32: "<link / abs url>"
+  #     apple_touch_icon: "<link / abs url>"
+  #     safari_pinned_tab: "<link / abs url>"
