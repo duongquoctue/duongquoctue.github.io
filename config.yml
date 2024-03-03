@@ -84,7 +84,8 @@ params:
   ShowToc: true
 
   homeInfoParams:
-    Title: "Tue Duong's blog"
+    Avatar: "images/avatar.jpeg"
+    Title: "Hello, I'm Tue"
     Content: >
       - I write about stuff I'm interested in and things I've learned.
 
@@ -103,6 +104,12 @@ params:
     - name: facebook
       title: Facebook
       url: "https://facebook.com/rnzlrdqt"
+    - name: steam
+      title: Steam
+      url: "https://steamcommunity.com/profiles/76561198336314748"
+    - name: applemusic
+      title: Apple Music
+      url: "https://music.apple.com/profile/duongquoctue"
 
   assets:
     disableHLJS: true

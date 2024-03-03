@@ -1,0 +1,9 @@
+.avatar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--gap);
+  img {
+    width: 25%;
+    border-radius: 50%;
+  }
+}
