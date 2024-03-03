@@ -13,14 +13,17 @@ enableRobotsTXT: true
 enableEmoji: true
 
 buildDrafts: false
-buildFuture: false
-buildExpired: false
+buildFuture: true
+buildExpired: true
 
 minify:
   disableXML: true
 
 markup:
+  defaultMarkdownHandler: goldmark
   goldmark:
+    extensions:
+      linkify: true
     renderer:
       unsafe: true
   highlight:
@@ -57,21 +60,19 @@ languages:
         - name: Tags
           url: /tags
           weight: 2
-        - name: Categories
-          url: /categories
-          weight: 3
         - name: Search
           url: /search
           weight: 4
 
 params:
   env: production
-  description: "Tue Duong"
   author: "Tue Duong"
   comments: true
-  images: ["images/avatar.jpg"]
   defaultTheme: auto
   displayFullLangName: true
+  disableShare: true
+  showtoc: true
+  tocopen: false
   DateFormat: "January 2, 2006"
   ShowShareButtons: false
   ShowReadingTime: true
@@ -81,7 +82,7 @@ params:
   ShowRssButtonInSectionTermList: false
   ShowAllPagesInArchive: true
   ShowPageNums: true
-  ShowToc: true
+  ShowWordCount: false
 
   homeInfoParams:
     Title: "Hello, I'm Tue"
@@ -117,3 +118,7 @@ params:
   #     favicon32x32: "<link / abs url>"
   #     apple_touch_icon: "<link / abs url>"
   #     safari_pinned_tab: "<link / abs url>"
+
+  cover:
+    hiddenInList: true
+    responsiveImages: true

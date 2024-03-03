@@ -7,3 +7,9 @@
     border-radius: 50%;
   }
 }
+
+.post-tags {
+  a {
+    text-transform: lowercase;
+  }
+}
