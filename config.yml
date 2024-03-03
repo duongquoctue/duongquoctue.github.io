@@ -84,7 +84,7 @@ params:
   ShowToc: true
 
   homeInfoParams:
-    Avatar: "images/avatar.jpeg"
+    Avatar: "images/avatar.webp"
     Title: "Hello, I'm Tue"
     Content: >
       - I write about stuff I'm interested in and things I've learned.
