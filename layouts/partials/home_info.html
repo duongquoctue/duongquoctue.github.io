@@ -2,7 +2,9 @@
 <article class="first-entry home-info">
   <header class="entry-header">
     <div class="avatar">
-      <img src="{{ .Avatar }}" alt="{{ .Title }}" />
+      {{ with resources.Get "images/avatar.webp" }}
+      <img src="{{ .RelPermalink }}" alt="{{ .Title }}" />
+      {{end}}
     </div>
     <h1>{{ .Title | markdownify }}</h1>
   </header>
