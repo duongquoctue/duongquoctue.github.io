@@ -2,7 +2,7 @@
 draft: true
 title: "Neovim: Getting Started | #1"
 description: "Sharp tools make good work"
-date: "2024-03-03"
+date: "2024-03-15"
 tags: ["neovim"]
 cover:
     image: "/images/neovim-logo-flat.png" # image path/url
@@ -31,8 +31,6 @@ Neovim builds upon Vim's legendary foundation, offering improved usability, exte
 ### Core functionality
 
 #### Buffers
-
-Like VSCODE Tab
 
 #### Windows
 
