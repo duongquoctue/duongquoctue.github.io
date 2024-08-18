@@ -17,7 +17,7 @@ The Protégé Effect (hiệu ứng Protégé), là khi nếu bạn biết rằng
 Có một trò đùa trong ngành của mình, về một phương pháp dùng để debug, đó là <a href="https://rubberduckdebugging.com/" target="_blank">Rubber Duck Debugging</a>, mà mình nghĩ về bản chất nó chính là hiệu ứng này
 
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Rubber_duck_assisting_with_debugging.jpg" alt="rubberduck" />
+  <img src="images/rubber-duck.png" alt="rubberduck" />
 </div>
 
 Khi bạn giải thích một vấn đề cho ai đó, chính bạn cũng đang củng cố lại kiến thức. Và nếu như bạn không thể giải thích một cách dễ hiểu, có lẽ bạn không thực sự hiểu vấn đề đó.
@@ -26,7 +26,7 @@ _“Men learn while they teach.”_ ― Seneca, **Letters from a Stoic**
 
 ### Học cách trình bày, giải thích vấn đề cô đọng và dễ hiểu
 
-Khi làm cho công ty VN, mình thấy một trong những kĩ năng mà ít developers chú ý đến, hoặc không được đánh giá cao, là kĩ năng thuyết trình, trình bày một vấn đề (có thể là trực tiếp hoặc dưới dạng documents). 
+Khi làm cho công ty VN, mình thấy một trong những kĩ năng mà ít developers chú ý đến, hoặc không được đánh giá cao, là kĩ năng thuyết trình, trình bày một vấn đề (có thể là trực tiếp hoặc dưới dạng documents).
 
 Khi làm việc trong một công ty có hybrid working policy, với đồng nghiệp ở các múi giờ khác nhau thì giao tiếp sẽ chủ yếu qua documents. Lúc này việc viết documents hiệu quả thật sự có giá trị, đóng góp trực tiếp vào hiệu suất làm việc của bạn và những người xung quanh.
 

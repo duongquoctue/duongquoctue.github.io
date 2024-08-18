@@ -67,7 +67,7 @@ languages:
 params:
   env: production
   author: "Tue Duong"
-  comments: true
+  comments: false
   defaultTheme: auto
   displayFullLangName: true
   disableShare: true
